@@ -1,7 +1,5 @@
-// cypress/support/faker-utils.js
 import { faker } from '@faker-js/faker';
 
-// Export pre-configured faker methods
 export const generateUser = () => {
   return {
     firstName: faker.person.firstName(),
